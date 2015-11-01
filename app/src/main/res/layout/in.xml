@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ecf0f1"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/instruction"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This is a simulation of a theremin. With the Microsoft Band on your wrist, start with your palm facing down. Slowly, turn your wrist 90 degrees. The app will play varied musical notes at different angles."
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="BACK"
+        android:id="@+id/button3"
+        android:fontFamily="sans-serif-light"
+        android:background="#f1c40f"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:text="CREDITS"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/button4"
+        android:background="#f1c40f"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        />
+
+
+
+</RelativeLayout>
